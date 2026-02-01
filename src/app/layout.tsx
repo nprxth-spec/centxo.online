@@ -14,6 +14,7 @@ const inter = Inter({
     variable: '--font-inter',
     display: 'swap',
     fallback: ['system-ui', 'arial', 'sans-serif'],
+    adjustFontFallback: false,
 });
 
 const outfit = Outfit({
@@ -21,6 +22,7 @@ const outfit = Outfit({
     variable: '--font-outfit',
     display: 'swap',
     fallback: ['system-ui', 'arial', 'sans-serif'],
+    adjustFontFallback: false,
 });
 
 const sarabun = Sarabun({
@@ -29,6 +31,7 @@ const sarabun = Sarabun({
     variable: '--font-sarabun',
     display: 'swap',
     fallback: ['system-ui', 'arial', 'sans-serif'],
+    adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
