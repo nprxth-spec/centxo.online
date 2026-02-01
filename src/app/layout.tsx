@@ -16,7 +16,7 @@ const fontVariables = {
 };
 
 export const metadata: Metadata = {
-    title: 'Centxo - Advanced Ad Management',
+    title: 'Laroun - Advanced Ad Management',
     description: 'Scale your advertising campaigns with AI automation',
 };
 
@@ -33,7 +33,7 @@ export default function RootLayout({
                     defaultTheme="system"
                     enableSystem
                     disableTransitionOnChange={false}
-                    storageKey="adpilot-theme"
+                    storageKey="laroun-theme"
                 >
                     <LanguageProvider>
                         <ThemeColorProvider>

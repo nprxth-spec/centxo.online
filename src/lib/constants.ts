@@ -1,1 +1,1 @@
-export const APP_NAME = "AdPilot AI";
+export const APP_NAME = "Laroun";

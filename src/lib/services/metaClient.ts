@@ -28,7 +28,7 @@ if (ENCRYPTION_KEY.length < 32) {
 // Derive a proper 32-byte key using PBKDF2 (more secure than padding)
 const DERIVED_KEY = crypto.pbkdf2Sync(
   ENCRYPTION_KEY,
-  'centxo-salt-v1', // Static salt (app-level)
+  'laroun-salt-v1', // Static salt (app-level)
   100000,           // Iterations
   32,               // Key length
   'sha256'

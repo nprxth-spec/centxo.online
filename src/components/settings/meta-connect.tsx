@@ -95,7 +95,7 @@ export default function MetaConnect() {
   return (
     <div className="flex flex-col items-center justify-center text-center gap-4 p-6 border-2 border-dashed rounded-lg">
       <h3 className="font-semibold">Connect to your Meta Account</h3>
-      <p className="text-sm text-muted-foreground">This will allow AdPilot AI to create and manage ads on your behalf.</p>
+      <p className="text-sm text-muted-foreground">This will allow Laroun to create and manage ads on your behalf.</p>
       <Button onClick={handleConnect} disabled={status === 'connecting'}>
         {status === 'connecting' ? (
           <Loader2 className="mr-2 h-4 w-4 animate-spin" />

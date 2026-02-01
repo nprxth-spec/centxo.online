@@ -862,7 +862,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'audiences.noAudiencesHint': 'Create a Suppression audience above, or verify you selected the correct Ad Account (audiences are tied to the selected Ad Account)',
     'audiences.refresh': 'Refresh',
     'audiences.usageTitle': 'How to use Exclusion',
-    'audiences.usageDesc': 'When creating ads in Create Ads, select this Suppression audience as Exclusion — Centxo will exclude people in this audience from ads so people who already messaged won\'t see ads again (this feature will be added to Create Ads in the next version).',
+    'audiences.usageDesc': 'When creating ads in Create Ads, select this Suppression audience as Exclusion — Laroun will exclude people in this audience from ads so people who already messaged won\'t see ads again (this feature will be added to Create Ads in the next version).',
 
     // Automation V2
     'automation.v2.steps.media': 'Upload & Thumbnail',
@@ -956,7 +956,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'landing.new.aiResponse': 'New: AI-Powered Auto Response',
     'landing.hero.title1': 'The Intelligent OS for ',
     'landing.hero.title2': 'Facebook Advertising',
-    'landing.hero.subtitle': 'Stop wrestling with Ads Manager. Centxo gives you a unified dashboard, AI automation, and bulk tools to scale your business effortlessly.',
+    'landing.hero.subtitle': 'Stop wrestling with Ads Manager. Laroun gives you a unified dashboard, AI automation, and bulk tools to scale your business effortlessly.',
     'landing.cta.start': 'Start Free Trial',
     'landing.cta.features': 'View Features',
     'landing.dashboard.title': 'Unified Dashboard',
@@ -1003,28 +1003,28 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.deletion.title': 'Data Deletion Instructions',
 
     'legal.deletion.fb.title': 'Facebook Data Deletion Instructions',
-    'legal.deletion.fb.desc': 'If you want to delete your activities for the Centxo App, you can remove your information by following these steps:',
+    'legal.deletion.fb.desc': 'If you want to delete your activities for the Laroun App, you can remove your information by following these steps:',
     'legal.deletion.step1': 'Go to your Facebook Account\'s **Settings & Privacy**. Click "Settings".',
     'legal.deletion.step2': 'Scroll down and look for **"Apps and Websites"** and click on it.',
-    'legal.deletion.step3': 'Find and select **"Centxo"**.',
+    'legal.deletion.step3': 'Find and select **"Laroun"**.',
     'legal.deletion.step4': 'Click on the **"Remove"** button.',
     'legal.deletion.step5': 'Congratulations, you have successfully removed your app activities.',
     'legal.deletion.contact.title': 'Contact Us for Data Deletion',
     'legal.deletion.contact.desc': 'If you are unable to follow the steps above or wish to request explicit deletion of all your data stored on our servers, please contact us directly. We will process your request within 30 days.',
     'legal.deletion.google.title': 'Google Data Deletion Instructions',
-    'legal.deletion.google.desc': 'You can disconnect and revoke Centxo\'s access to your data via your Google Account settings:',
+    'legal.deletion.google.desc': 'You can disconnect and revoke Laroun\'s access to your data via your Google Account settings:',
     'legal.deletion.google.step1': 'Go to your **Google Account** page (myaccount.google.com).',
     'legal.deletion.google.step2': 'Go to the **"Security"** tab.',
     'legal.deletion.google.step3': 'Scroll down to **"Connections to third-party apps & services"**.',
-    'legal.deletion.google.step4': 'Click on **"Centxo"** and select **"Delete all connections you have with Centxo"**.',
+    'legal.deletion.google.step4': 'Click on **"Laroun"** and select **"Delete all connections you have with Laroun"**.',
     'legal.google.data.title': 'Google Data',
-    'legal.google.data.desc': 'Our App uses Google Sign-In for authentication. We collect the following personal data from your Google User Data: email address, name, and profile picture. Centxo\'s use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer" class="underline">Google API Services User Data Policy</a>, including the Limited Use requirements.',
+    'legal.google.data.desc': 'Our App uses Google Sign-In for authentication. We collect the following personal data from your Google User Data: email address, name, and profile picture. Laroun\'s use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer" class="underline">Google API Services User Data Policy</a>, including the Limited Use requirements.',
     'legal.terms.google': 'Google Terms',
     'legal.terms.google.desc': 'Our Service interacts with Google API Services. By using the Service, you imply agreement to be bound by Google\'s Terms of Service.',
 
     // Privacy Policy Content
     'legal.privacy.intro.title': '1. Introduction',
-    'legal.privacy.intro.desc': 'Centxo ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy tells you how we look after your personal data when you use the Centxo platform and tells you about your privacy rights and how the law protects you.',
+    'legal.privacy.intro.desc': 'Laroun ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy tells you how we look after your personal data when you use the Laroun platform and tells you about your privacy rights and how the law protects you.',
     'legal.privacy.collect.title': '2. The Data We Collect',
     'legal.privacy.collect.desc': 'We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:',
     'legal.privacy.collect.identity': '<strong>Identity Data:</strong> includes first name, last name, username or similar identifier.',
@@ -1039,7 +1039,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.privacy.use.improve': 'To improve the Service and develop new features.',
     'legal.privacy.use.support': 'To provide customer support.',
     'legal.privacy.fb.title': '4. Facebook Data',
-    'legal.privacy.fb.desc': 'Our App uses Facebook Login and the Marketing API. We request the following permissions: <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">email</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">public_profile</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_management</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_read</code>. We do not sell this data to third parties. We strictly use it to provide the ad management features of the Centxo platform.',
+    'legal.privacy.fb.desc': 'Our App uses Facebook Login and the Marketing API. We request the following permissions: <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">email</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">public_profile</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_management</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_read</code>. We do not sell this data to third parties. We strictly use it to provide the ad management features of the Laroun platform.',
     'legal.privacy.google.title': '5. Google Data',
     // legal.google.data.desc already exists
     'legal.privacy.security.title': '6. Data Security',
@@ -1049,9 +1049,9 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
 
     // Terms Content
     'legal.terms.agreement.title': '1. Agreement to Terms',
-    'legal.terms.agreement.desc': 'By accessing or using the Centxo platform ("Service"), you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the Service.',
+    'legal.terms.agreement.desc': 'By accessing or using the Laroun platform ("Service"), you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the Service.',
     'legal.terms.service.title': '2. Service Description',
-    'legal.terms.service.desc': 'Centxo provides Facebook Advertisement Management tools, including but not limited to:',
+    'legal.terms.service.desc': 'Laroun provides Facebook Advertisement Management tools, including but not limited to:',
     'legal.terms.service.list1': 'Campaign creation and management',
     'legal.terms.service.list2': 'Automated ad optimization',
     'legal.terms.service.list3': 'Analytics and reporting',
@@ -1067,7 +1067,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.terms.data.title': '7. Data Usage',
     'legal.terms.data.desc': 'We collect and use data as described in our Privacy Policy. By using the Service, you consent to such collection and usage.',
     'legal.terms.liability.title': '8. Limitation of Liability',
-    'legal.terms.liability.desc': 'Centxo shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the Service.',
+    'legal.terms.liability.desc': 'Laroun shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the Service.',
     'legal.terms.contact.title': '9. Contact Us',
     'legal.terms.contact.desc': 'If you have any questions about these Terms, please contact us:',
   },
@@ -1932,7 +1932,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'audiences.noAudiencesHint': 'สร้างกลุ่ม Suppression ด้านบน หรือตรวจสอบว่าเลือก Ad Account ถูกต้อง (กลุ่มที่สร้างจะอยู่ใน Ad Account ที่เลือก)',
     'audiences.refresh': 'รีเฟรช',
     'audiences.usageTitle': 'วิธีใช้ Exclusion',
-    'audiences.usageDesc': 'เมื่อสร้างโฆษณาใน Create Ads ให้เลือกกลุ่ม Suppression นี้เป็น Exclusion — Centxo จะ exclude คนในกลุ่มจากโฆษณา ทำให้คนที่เคยทักแล้วไม่เห็นแอดอีก (ฟีเจอร์นี้จะเพิ่มใน Create Ads ในเวอร์ชันถัดไป)',
+    'audiences.usageDesc': 'เมื่อสร้างโฆษณาใน Create Ads ให้เลือกกลุ่ม Suppression นี้เป็น Exclusion — Laroun จะ exclude คนในกลุ่มจากโฆษณา ทำให้คนที่เคยทักแล้วไม่เห็นแอดอีก (ฟีเจอร์นี้จะเพิ่มใน Create Ads ในเวอร์ชันถัดไป)',
 
     // Automation V2 (Thai)
     'automation.v2.steps.media': 'อัปโหลดสื่อ',
@@ -2026,7 +2026,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'landing.new.aiResponse': 'ใหม่: ระบบตอบกลับอัตโนมัติด้วย AI',
     'landing.hero.title1': 'ระบบปฏิบัติการอัจฉริยะสำหรับ',
     'landing.hero.title2': 'โฆษณา Facebook',
-    'landing.hero.subtitle': 'เลิกปวดหัวกับตัวจัดการโฆษณา Centxo มอบแดชบอร์ดรวมศูนย์, AI อัตโนมัติ, และเครื่องมือยิงแอดทีละเยอะๆ เพื่อขยายธุรกิจของคุณอย่างง่ายดาย',
+    'landing.hero.subtitle': 'เลิกปวดหัวกับตัวจัดการโฆษณา Laroun มอบแดชบอร์ดรวมศูนย์, AI อัตโนมัติ, และเครื่องมือยิงแอดทีละเยอะๆ เพื่อขยายธุรกิจของคุณอย่างง่ายดาย',
     'landing.cta.start': 'เริ่มใช้งานฟรี',
     'landing.cta.features': 'ดูฟีเจอร์',
     'landing.dashboard.title': 'แดชบอร์ดรวมศูนย์',
@@ -2073,28 +2073,28 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.deletion.title': 'คำแนะนำการลบข้อมูล',
 
     'legal.deletion.fb.title': 'คำแนะนำการลบข้อมูล Facebook',
-    'legal.deletion.fb.desc': 'หากคุณต้องการลบกิจกรรมของคุณสำหรับแอป Centxo คุณสามารถลบข้อมูลได้โดยทำตามขั้นตอนดังนี้:',
+    'legal.deletion.fb.desc': 'หากคุณต้องการลบกิจกรรมของคุณสำหรับแอป Laroun คุณสามารถลบข้อมูลได้โดยทำตามขั้นตอนดังนี้:',
     'legal.deletion.step1': 'ไปที่ **การตั้งค่าและความเป็นส่วนตัว** ของบัญชี Facebook ของคุณ คลิก "การตั้งค่า"',
     'legal.deletion.step2': 'เลื่อนลงมาและมองหา **"แอพและเว็บไซต์"** แล้วคลิก',
-    'legal.deletion.step3': 'ค้นหาและเลือก **"Centxo"**',
+    'legal.deletion.step3': 'ค้นหาและเลือก **"Laroun"**',
     'legal.deletion.step4': 'คลิกที่ปุ่ม **"ลบออก"**',
     'legal.deletion.step5': 'ยินดีด้วย คุณได้ลบกิจกรรมของแอพเรียบร้อยแล้ว',
     'legal.deletion.contact.title': 'ติดต่อเราเพื่อลบข้อมูล',
     'legal.deletion.contact.desc': 'หากคุณไม่สามารถทำตามขั้นตอนข้างต้น หรือต้องการร้องขอให้ลบข้อมูลทั้งหมดที่เก็บไว้ในเซิร์ฟเวอร์ของเรา โปรดติดต่อเราโดยตรง เราจะดำเนินการภายใน 30 วัน',
     'legal.deletion.google.title': 'คำแนะนำการลบข้อมูล Google',
-    'legal.deletion.google.desc': 'คุณสามารถยกเลิกการเชื่อมต่อและลบสิทธิ์การเข้าถึงข้อมูลของ Centxo ได้ผ่านการตั้งค่าบัญชี Google:',
+    'legal.deletion.google.desc': 'คุณสามารถยกเลิกการเชื่อมต่อและลบสิทธิ์การเข้าถึงข้อมูลของ Laroun ได้ผ่านการตั้งค่าบัญชี Google:',
     'legal.deletion.google.step1': 'ไปที่ **หน้าบัญชี Google ของคุณ** (myaccount.google.com)',
     'legal.deletion.google.step2': 'ไปที่แท็บ **"ความปลอดภัย" (Security)**',
     'legal.deletion.google.step3': 'เลื่อนลงมาที่หัวข้อ **"การเชื่อมต่อกับแอปและบริการของบุคคลที่สาม"**',
-    'legal.deletion.google.step4': 'คลิกที่ **"Centxo"** และเลือก **"ลบการเชื่อมต่อทั้งหมดที่คุณมีกับ Centxo"**',
+    'legal.deletion.google.step4': 'คลิกที่ **"Laroun"** และเลือก **"ลบการเชื่อมต่อทั้งหมดที่คุณมีกับ Laroun"**',
     'legal.google.data.title': 'ข้อมูล Google',
-    'legal.google.data.desc': 'แอปของเราใช้บริการ Google Sign-In เพื่อการยืนยันตัวตน เราเก็บรวบรวมข้อมูลส่วนบุคคลดังต่อไปนี้จากข้อมูลผู้ใช้ Google ของคุณ: อีเมล, ชื่อ, และรูปโปรไฟล์. การนำข้อมูลที่ได้รับจาก Google APIs ไปใช้และการถ่ายโอนข้อมูลไปยังแอปอื่นใดของ Centxo จะเป็นไปตาม <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer" class="underline">นโยบายข้อมูลผู้ใช้บริการ Google API</a> รวมถึงข้อกำหนดการใช้งานแบบจำกัด (Limited Use requirements).',
+    'legal.google.data.desc': 'แอปของเราใช้บริการ Google Sign-In เพื่อการยืนยันตัวตน เราเก็บรวบรวมข้อมูลส่วนบุคคลดังต่อไปนี้จากข้อมูลผู้ใช้ Google ของคุณ: อีเมล, ชื่อ, และรูปโปรไฟล์. การนำข้อมูลที่ได้รับจาก Google APIs ไปใช้และการถ่ายโอนข้อมูลไปยังแอปอื่นใดของ Laroun จะเป็นไปตาม <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer" class="underline">นโยบายข้อมูลผู้ใช้บริการ Google API</a> รวมถึงข้อกำหนดการใช้งานแบบจำกัด (Limited Use requirements).',
     'legal.terms.google': 'ข้อกำหนดของ Google',
     'legal.terms.google.desc': 'บริการของเราโต้ตอบกับบริการ Google API ในการใช้งานบริการนี้ คุณตกลงที่จะผูกพันตามข้อกำหนดการให้บริการของ Google',
 
     // Privacy Policy Content (TH)
     'legal.privacy.intro.title': '1. บทนำ',
-    'legal.privacy.intro.desc': 'Centxo ("เรา") เคารพความเป็นส่วนตัวของคุณและมุ่งมั่นที่จะปกป้องข้อมูลส่วนบุคคลของคุณ นโยบายความเป็นส่วนตัวนี้จะบอกคุณว่าเราดูแลข้อมูลส่วนบุคคลของคุณอย่างไรเมื่อคุณใช้แพลตฟอร์ม Centxo และบอกคุณเกี่ยวกับสิทธิ์ความเป็นส่วนตัวของคุณและวิธีที่กฎหมายคุ้มครองคุณ',
+    'legal.privacy.intro.desc': 'Laroun ("เรา") เคารพความเป็นส่วนตัวของคุณและมุ่งมั่นที่จะปกป้องข้อมูลส่วนบุคคลของคุณ นโยบายความเป็นส่วนตัวนี้จะบอกคุณว่าเราดูแลข้อมูลส่วนบุคคลของคุณอย่างไรเมื่อคุณใช้แพลตฟอร์ม Laroun และบอกคุณเกี่ยวกับสิทธิ์ความเป็นส่วนตัวของคุณและวิธีที่กฎหมายคุ้มครองคุณ',
     'legal.privacy.collect.title': '2. ข้อมูลที่เราเก็บรวบรวม',
     'legal.privacy.collect.desc': 'เราอาจรวบรวม ใช้ จัดเก็บ และถ่ายโอนข้อมูลส่วนบุคคลประเภทต่างๆ เกี่ยวกับคุณ ซึ่งเราได้จัดกลุ่มไว้ดังนี้:',
     'legal.privacy.collect.identity': '<strong>ข้อมูลระบุตัวตน:</strong> รวมถึงชื่อ นามสกุล ชื่อผู้ใช้ หรือตัวระบุที่คล้ายกัน',
@@ -2109,7 +2109,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.privacy.use.improve': 'เพื่อปรับปรุงบริการและพัฒนาฟีเจอร์ใหม่',
     'legal.privacy.use.support': 'เพื่อให้บริการสนับสนุนลูกค้า',
     'legal.privacy.fb.title': '4. ข้อมูล Facebook',
-    'legal.privacy.fb.desc': 'แอปของเราใช้ Facebook Login และ Marketing API เราขอสิทธิ์ดังต่อไปนี้: <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">email</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">public_profile</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_management</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_read</code> เราไม่ขายข้อมูลนี้ให้กับบุคคลที่สาม เราใช้อย่างเคร่งครัดเพื่อให้บริการจัดการโฆษณาบนแพลตฟอร์ม Centxo เท่านั้น',
+    'legal.privacy.fb.desc': 'แอปของเราใช้ Facebook Login และ Marketing API เราขอสิทธิ์ดังต่อไปนี้: <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">email</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">public_profile</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_management</code>, <code className="bg-muted px-1 py-0.5 rounded mx-1 text-sm">ads_read</code> เราไม่ขายข้อมูลนี้ให้กับบุคคลที่สาม เราใช้อย่างเคร่งครัดเพื่อให้บริการจัดการโฆษณาบนแพลตฟอร์ม Laroun เท่านั้น',
     'legal.privacy.google.title': '5. ข้อมูล Google',
     // legal.google.data.desc already exists
     'legal.privacy.security.title': '6. ความปลอดภัยของข้อมูล',
@@ -2119,9 +2119,9 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
 
     // Terms Content (TH)
     'legal.terms.agreement.title': '1. ข้อตกลงในเงื่อนไข',
-    'legal.terms.agreement.desc': 'โดยการเข้าถึงหรือใช้แพลตฟอร์ม Centxo ("บริการ") คุณตกลงที่จะผูกพันตามเงื่อนไขการให้บริการเหล่านี้ หากคุณไม่เห็นด้วยกับส่วนใดส่วนหนึ่งของเงื่อนไข คุณอาจไม่สามารถเข้าถึงบริการได้',
+    'legal.terms.agreement.desc': 'โดยการเข้าถึงหรือใช้แพลตฟอร์ม Laroun ("บริการ") คุณตกลงที่จะผูกพันตามเงื่อนไขการให้บริการเหล่านี้ หากคุณไม่เห็นด้วยกับส่วนใดส่วนหนึ่งของเงื่อนไข คุณอาจไม่สามารถเข้าถึงบริการได้',
     'legal.terms.service.title': '2. รายละเอียดบริการ',
-    'legal.terms.service.desc': 'Centxo ให้บริการเครื่องมือจัดการโฆษณา Facebook รวมถึงแต่ไม่จำกัดเพียง:',
+    'legal.terms.service.desc': 'Laroun ให้บริการเครื่องมือจัดการโฆษณา Facebook รวมถึงแต่ไม่จำกัดเพียง:',
     'legal.terms.service.list1': 'การสร้างและจัดการแคมเปญ',
     'legal.terms.service.list2': 'การปรับปรุงโฆษณาอัตโนมัติ',
     'legal.terms.service.list3': 'การวิเคราะห์และรายงานผล',
@@ -2137,7 +2137,7 @@ export const messages: Record<SupportedLanguage, Record<string, string>> = {
     'legal.terms.data.title': '7. การใช้ข้อมูล',
     'legal.terms.data.desc': 'เรารวบรวมและใช้ข้อมูลตามที่อธิบายไว้ในนโยบายความเป็นส่วนตัวของเรา โดยการใช้บริการ คุณยินยอมให้รวบรวมและใช้งานดังกล่าว',
     'legal.terms.liability.title': '8. การจำกัดความรับผิด',
-    'legal.terms.liability.desc': 'Centxo จะไม่รับผิดต่อความเสียหายทางอ้อม ความเสียหายที่เกิดขึ้นโดยบังเอิญ ความเสียหายพิเศษ ความเสียหายที่เป็นผลสืบเนื่อง หรือความเสียหายเชิงลงโทษ รวมถึงแต่ไม่จำกัดเพียง การสูญเสียผลกำไร ข้อมูล การใช้งาน ความนิยม หรือความสูญเสียที่จับต้องไม่ได้อื่นๆ ที่เป็นผลมาจากการใช้บริการของคุณ',
+    'legal.terms.liability.desc': 'Laroun จะไม่รับผิดต่อความเสียหายทางอ้อม ความเสียหายที่เกิดขึ้นโดยบังเอิญ ความเสียหายพิเศษ ความเสียหายที่เป็นผลสืบเนื่อง หรือความเสียหายเชิงลงโทษ รวมถึงแต่ไม่จำกัดเพียง การสูญเสียผลกำไร ข้อมูล การใช้งาน ความนิยม หรือความสูญเสียที่จับต้องไม่ได้อื่นๆ ที่เป็นผลมาจากการใช้บริการของคุณ',
     'legal.terms.contact.title': '9. ติดต่อเรา',
     'legal.terms.contact.desc': 'หากคุณมีคำถามเกี่ยวกับเงื่อนไขเหล่านี้ โปรดติดต่อเรา:',
 
@@ -2148,3 +2148,4 @@ export function getMessage(lang: SupportedLanguage, key: string, fallback?: stri
   const message = messages[lang][key];
   return message || fallback || key;
 }
+

@@ -177,7 +177,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [adAccounts, setAdAccounts] = useState<AdAccount[]>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).accounts || [];
         }
@@ -189,7 +189,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [pages, setPages] = useState<Page[]>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).pages || [];
         }
@@ -201,7 +201,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [businesses, setBusinesses] = useState<Business[]>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).businesses || [];
         }
@@ -213,7 +213,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [businessPages, setBusinessPages] = useState<Page[]>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).businessPages || [];
         }
@@ -225,7 +225,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [businessAccounts, setBusinessAccounts] = useState<AdAccount[]>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).businessAccounts || [];
         }
@@ -239,7 +239,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [lastFetched, setLastFetched] = useState<number>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const cached = localStorage.getItem('adPilotCache_v9');
+        const cached = localStorage.getItem('larounCache_v9');
         if (cached) {
           return JSON.parse(cached).timestamp || 0;
         }
@@ -252,7 +252,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const hasCachedData = () => {
     if (typeof window === 'undefined') return false;
     try {
-      const cached = localStorage.getItem('adPilotCache_v9');
+      const cached = localStorage.getItem('larounCache_v9');
       if (!cached) return false;
       const data = JSON.parse(cached);
       const hasAny = data.accounts?.length > 0 || data.pages?.length > 0 || data.businesses?.length > 0 ||
@@ -283,7 +283,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
 
   // Persist cache helper
   const saveToCache = (accounts: AdAccount[], p: Page[], b: Business[], bp: Page[], ba: AdAccount[], timestamp: number) => {
-    localStorage.setItem('adPilotCache_v9', JSON.stringify({ accounts, pages: p, businesses: b, businessPages: bp, businessAccounts: ba, timestamp }));
+    localStorage.setItem('larounCache_v9', JSON.stringify({ accounts, pages: p, businesses: b, businessPages: bp, businessAccounts: ba, timestamp }));
   };
 
   const handleApiError = async (response: Response) => {
