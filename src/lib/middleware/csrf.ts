@@ -9,8 +9,9 @@ import crypto from 'crypto';
 const CSRF_TOKEN_HEADER = 'x-csrf-token';
 const CSRF_COOKIE_NAME = 'csrf-token';
 
-// Use NEXTAUTH_SECRET for CSRF - must be set in production
-if (process.env.NODE_ENV === 'production' && !process.env.NEXTAUTH_SECRET) {
+// Use NEXTAUTH_SECRET for CSRF - must be set in production (skip during build time)
+const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build';
+if (!isBuildTime && process.env.NODE_ENV === 'production' && !process.env.NEXTAUTH_SECRET) {
     throw new Error('NEXTAUTH_SECRET must be set in production for CSRF protection');
 }
 const CSRF_SECRET = process.env.NEXTAUTH_SECRET || 'dev-secret-not-for-production';
