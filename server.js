@@ -10,7 +10,7 @@ const next = require('next');
 // Environment configuration
 const dev = process.env.NODE_ENV !== 'production';
 const hostname = process.env.HOSTNAME || 'localhost';
-const defaultPort = parseInt(process.env.PORT || '4000', 10);
+const defaultPort = parseInt(process.env.PORT || '3005', 10);
 
 // Function to find available port
 function findAvailablePort(startPort, maxAttempts = 10) {
