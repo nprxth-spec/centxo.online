@@ -11,8 +11,9 @@ const GRAPH_API_BASE = `https://graph.facebook.com/${GRAPH_API_VERSION}`;
 // Encryption for storing tokens
 const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY || 'default-key-change-in-production';
 
-// Validate encryption key in production
-if (process.env.NODE_ENV === 'production' && ENCRYPTION_KEY === 'default-key-change-in-production') {
+// Validate encryption key in production (skip during build time)
+const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build';
+if (!isBuildTime && process.env.NODE_ENV === 'production' && ENCRYPTION_KEY === 'default-key-change-in-production') {
   throw new Error(
     '❌ CRITICAL SECURITY ERROR: ENCRYPTION_KEY is using default value in production!\n' +
     'Generate a secure key with: node -e "console.log(require(\'crypto\').randomBytes(32).toString(\'hex\'))"\n' +
